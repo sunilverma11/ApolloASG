@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  color: white;
+}
+.locationDiv {
+  display: flex;
+  flex-direction: column;
+}
+.locationDiv > button {
+  width: 100px;
+  height: 40px;
+  margin: auto;
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+}
+.booking {
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  background-color: white;
+  color: black;
+  margin-top: 200px;
+}
+.chooseLocation {
+  color: white;
+}
+.drListDiv {
+  color: white;
+}
+.drList {
+  display: flex;
+  flex-direction: column;
+}
+.drList > button {
+  width: 600px;
+  height: 40px;
+  margin: auto;
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+}
+.patientList {
+  width: 450px;
+  height: 450px;
+  /* background-color: white;
+    color: black; */
+  margin: auto;
+}
+.schedule_btn {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+  width: 60%;
+  background-color: white;
+  color: black;
+  margin-top: 2%;
+}
+.schedule_btn > button {
+  height: 35px;
+  width: 150px;
+  background-color: blue;
+  color: aliceblue;
+}
+.inputL {
+  float: right;
+}
+.inputR {
+  float: left;
+}
+.mainSubmit {
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+form .mainSubmit {
+  margin-left: 25px;
+}
